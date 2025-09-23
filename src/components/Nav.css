@@ -8,4 +8,33 @@ nav {
 
 .nav-logo {
     width: 153px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-link { 
+    color: white;
+    font-size: 18px;
+    font-family: Cinzel;
+    font-weight: 400;
+    padding: 12px 16px;
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.nav-link:hover {
+    opacity: 100%;
 }
