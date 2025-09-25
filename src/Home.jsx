@@ -6,7 +6,7 @@ import band_logo from './assets/band_logo.png'
 const Home = () => {
 
   const [carouselScroll, setCarouselScroll] = useState(0)
-  const maxScroll = (9 - 3) * 336
+  const maxScroll = (9 - 3) * 324
 
   return (
     <>
