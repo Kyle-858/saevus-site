@@ -30,7 +30,7 @@
 }
 
 .carousel {
-    width: 100%;
+    width: 972px;
     max-width: 1020px; /* 3 items × 324px + margins */
     overflow: hidden;
     height: 560px;
@@ -54,6 +54,11 @@
 
 .carousel-btn:hover {
     opacity: 50%;
+}
+
+.btn-inactive {
+    opacity: 50%;
+    cursor: default;
 }
 
 .carousel-content {

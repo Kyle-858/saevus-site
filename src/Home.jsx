@@ -6,7 +6,7 @@ import band_logo from './assets/band_logo.png'
 const Home = () => {
 
   const [carouselScroll, setCarouselScroll] = useState(0)
-  const maxScroll = (9 - 3) * 324
+  const maxScroll = 972 * 2
 
   return (
     <>
@@ -18,10 +18,10 @@ const Home = () => {
           <div className="section-title">LATEST NEWS</div>
           <div className="carousel">
             <div className="carousel-btns">
-              <button className="btn-left carousel-btn" onClick={() => setCarouselScroll(prev => Math.max(prev - 1002, 0))}>
+              <button className={`btn-left carousel-btn ${carouselScroll === 0 ? 'btn-inactive' : ''}`} onClick={() => setCarouselScroll(prev => Math.max(prev - 972, 0))}>
                 &lt;
               </button>
-              <button className="btn-right carousel-btn" onClick={() => setCarouselScroll(prev => Math.min(prev + 1002, maxScroll))}>
+              <button className={`btn-right carousel-btn ${carouselScroll === 1944 ? 'btn-inactive' : ''}`} onClick={() => setCarouselScroll(prev => Math.min(prev + 972, maxScroll))}>
                 &gt;
               </button>
             </div>
