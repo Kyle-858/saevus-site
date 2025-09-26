@@ -33,9 +33,27 @@
     width: 100%;
     max-width: 1020px; /* 3 items × 324px + margins */
     overflow: hidden;
-    height: 500px;
+    height: 560px;
     position: relative;
     margin: 0 auto; /* optional: center it */
+}
+
+.carousel-btns {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carousel-btn {
+    font-size: 24px;
+    border: none;
+    background: none;
+    margin: 0 12px;
+    transition: all 300ms ease;
+}
+
+.carousel-btn:hover {
+    opacity: 50%;
 }
 
 .carousel-content {
@@ -45,6 +63,7 @@
     position: absolute;
     left: 0;
     transition: all 300ms ease;
+    margin-top: 48px;
 }
 
 .carousel-obj {
@@ -54,7 +73,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 6px;
 }
 
 .obj-img-wrapper {
@@ -63,7 +81,7 @@
 }
 
 .obj-img {
-    width: 100%;
+    width: 90%;
 }
 
 .obj-title {

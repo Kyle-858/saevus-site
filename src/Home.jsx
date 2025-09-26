@@ -18,10 +18,10 @@ const Home = () => {
           <div className="section-title">LATEST NEWS</div>
           <div className="carousel">
             <div className="carousel-btns">
-              <button className="btn-left" onClick={() => setCarouselScroll(prev => Math.max(prev - 1000, 0))}>
+              <button className="btn-left carousel-btn" onClick={() => setCarouselScroll(prev => Math.max(prev - 1002, 0))}>
                 &lt;
               </button>
-              <button className="btn-right" onClick={() => setCarouselScroll(prev => Math.min(prev + 1000, maxScroll))}>
+              <button className="btn-right carousel-btn" onClick={() => setCarouselScroll(prev => Math.min(prev + 1002, maxScroll))}>
                 &gt;
               </button>
             </div>
