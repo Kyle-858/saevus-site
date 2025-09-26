@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import './Home.css'
 import band_image from './assets/band_image.jpg'
 import band_logo from './assets/band_logo.png'
+import YouTube from 'react-youtube'
 
 const Home = () => {
 
   const [carouselScroll, setCarouselScroll] = useState(0)
   const maxScroll = 972 * 2
+
 
   return (
     <>
@@ -52,6 +54,19 @@ const Home = () => {
           <button className="show-all-dates-btn">VIEW ALL TOUR DATES</button>
         </div>
         <div className="section-divider"></div>
+        <div className="section">
+          <div className="section-title">WATCH THE OFFICIAL (SONG) MUSIC VIDEO!</div>
+          <YouTube videoId="IEDEtZ4UVtI" opts={{
+            height: '390',
+            width: '640',
+            playerVars: {
+              autoplay: 0,
+              controls: 1,
+              modestbranding: 1,
+            },
+          }}/>
+          <button className="show-all-dates-btn">WATCH MORE VIDEOS</button>
+        </div>
       </div>
     </>
   )
