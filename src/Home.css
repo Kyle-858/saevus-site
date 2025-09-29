@@ -45,6 +45,11 @@
     margin-top: 48px;
 }
 
+.section-subtitle {
+    font-size: 18px;
+    font-family: Cinzel;
+}
+
 .carousel {
     width: 972px;
     max-width: 1020px; /* 3 items × 324px + margins */

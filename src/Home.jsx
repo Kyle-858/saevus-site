@@ -67,6 +67,11 @@ const Home = () => {
           }}/>
           <button className="show-all-dates-btn">WATCH MORE VIDEOS</button>
         </div>
+        <div className="section-divider"></div>
+        <div className="section">
+          <div className="section-title">MUSIC</div>
+          <div className="section-subtitle">Click here to check out our full discography</div>
+        </div>
       </div>
     </>
   )
