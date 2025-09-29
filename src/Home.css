@@ -57,15 +57,17 @@
 .carousel-btns {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 16px;
 }
 
 .carousel-btn {
-    font-size: 24px;
+    font-size: 26px;
     border: none;
     background: none;
     margin: 0 12px;
     transition: all 300ms ease;
+    font-weight: 700;
+    color: black;
 }
 
 .carousel-btn:hover {
