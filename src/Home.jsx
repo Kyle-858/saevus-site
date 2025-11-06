@@ -46,12 +46,12 @@ const Home = () => {
             {new Array(8).fill(0).map((object, index) => 
               <div className="show">
                 <div className="show-date">Fri, Jul 24</div>
-                <div className="show-title">Hills of Rock Festival 2026 @ 4:30 PM</div>
+                <div className="show-title">Show Title 2026 @ 4:30 PM</div>
                 <div className="show-location">Pittsburgh, PA</div>
                 <button className="show-tickets">TICKETS</button>
               </div>)}
           </div>
-          <button className="show-all-dates-btn">VIEW ALL TOUR DATES</button>
+          <button className="show-all-dates-btn">VIEW ALL SHOW DATES</button>
         </div>
         <div className="section-divider"></div>
         <div className="section">
